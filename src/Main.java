@@ -1,12 +1,15 @@
-import Part4.Cycles;
+import Part4.TwoFor;
 
 public class Main {
     public static void main(String[] args) {
 //        System.out.println("Hello world!");
 
-        Cycles cycles = new Cycles();
+//        Cycles cycles = new Cycles();
 //        cycles.oneToHundred();
-        cycles.randomTwentyFive();
+//        cycles.randomTwentyFive();
+
+        TwoFor twoFor = new TwoFor();
+        twoFor.simpleNumbers();
     }
 
 
